@@ -1,0 +1,39 @@
+.item {
+  width: 500px;
+  color: #353935;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.itemName {
+  font-weight: bold;
+  padding: 20px;
+}
+
+.line {
+  border: 1px solid #f4f4f4;
+}
+
+.xbutton {
+  float: right;
+  padding: 12px 20px;
+  border: none;
+  background-color: rgba(243, 172, 59, 0.884);
+  color: white;
+  margin: -10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.xbutton:hover {
+  color: #c0392b;
+}
+.completed {
+  cursor: pointer;
+  text-decoration: line-through;
+}
+
+.notCompleted {
+  cursor: pointer;
+}
